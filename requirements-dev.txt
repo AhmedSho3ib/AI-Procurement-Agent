@@ -1,0 +1,20 @@
+# ---------------------------------------------------------------------------
+# AI Procurement Agent - development requirements (exact pins)
+#
+# Test, lint and type-check tooling only. Produces everything needed to run the
+# full offline suite and the quality gates:
+#   python -m pip install -r requirements-dev.txt
+#   python -m pytest
+#   python -m ruff check src tests scripts
+#   python -m mypy
+#
+# Runtime pins come from requirements.txt; keep both in sync with the
+# `[project.optional-dependencies].dev` list in pyproject.toml (a test verifies it).
+# ---------------------------------------------------------------------------
+
+-r requirements.txt
+
+mypy==2.3.1
+pytest==9.0.2
+pytest-cov==7.1.0
+ruff==0.16.7

@@ -1,0 +1,44 @@
+# Keep the Docker build context small and free of secrets.
+# The image only needs src/, templates/, pyproject.toml, requirements.txt and README.md.
+
+# --- Secrets / local configuration -----------------------------------------
+.env
+.env.*
+!.env.example
+
+# --- Python environments and caches ----------------------------------------
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# --- Tests, docs, notebooks and tooling ------------------------------------
+tests/
+docs/
+notebooks/
+scripts/
+.github/
+.editorconfig
+
+# --- Runtime artifacts ------------------------------------------------------
+ai-agent-output/
+data/
+*.db
+*.sqlite*
+logs/
+*.log
+
+# --- Editors / OS -----------------------------------------------------------
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db

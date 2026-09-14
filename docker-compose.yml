@@ -1,0 +1,36 @@
+# Local/dev orchestration for the procurement API.
+# Only one service is needed: a modular monolith, not a distributed platform.
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ai-procurement-agent:latest
+    env_file:
+      - .env
+    environment:
+      ENVIRONMENT: ${ENVIRONMENT:-production}
+      LOG_FORMAT: ${LOG_FORMAT:-json}
+      PERSISTENCE_BACKEND: sqlite
+      SQLITE_PATH: /app/data/procurement.db
+      REPORT_OUTPUT_DIR: /app/ai-agent-output
+    ports:
+      - "${PORT:-8000}:8000"
+    volumes:
+      - procurement-data:/app/data
+      - procurement-reports:/app/ai-agent-output
+    restart: unless-stopped
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3).status == 200 else 1)"
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+
+volumes:
+  procurement-data:
+  procurement-reports:
