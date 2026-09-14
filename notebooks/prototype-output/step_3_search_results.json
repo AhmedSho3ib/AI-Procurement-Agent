@@ -1,0 +1,264 @@
+{
+  "products": [
+    {
+      "page_url": "https://www.amazon.eg/DeLonghi-Magnifica-Automatic-Coffee-Machine/dp/B00400OMU0",
+      "product_title": "De'Longhi Magnifica S Automatic Coffee Machine, ECAM 22.110.B, Black",
+      "product_image_url": "https://m.media-amazon.com/images/I/61+DeLonghi-Magnifica-S.jpg",
+      "product_url": "https://www.amazon.eg/DeLonghi-Magnifica-Automatic-Coffee-Machine/dp/B00400OMU0",
+      "product_current_price": 24999.0,
+      "product_original_price": null,
+      "product_discount_percentage": null,
+      "product_specs": [
+        {
+          "specification_name": "Type",
+          "specification_value": "Automatic"
+        },
+        {
+          "specification_name": "Grinder",
+          "specification_value": "Integrated"
+        },
+        {
+          "specification_name": "Milk System",
+          "specification_value": "Steam wand"
+        }
+      ],
+      "agent_recommendation_rank": 5,
+      "agent_recommendation_notes": [
+        "Highly recommended for home use due to its balance of features and price.",
+        "Integrated grinder provides fresh coffee experience."
+      ]
+    },
+    {
+      "page_url": "https://www.amazon.eg/Philips-Series-2200-Espresso-Machine/dp/B082Y45678",
+      "product_title": "Philips Series 2200 Espresso Machine, LatteGo, Black",
+      "product_image_url": "https://m.media-amazon.com/images/I/61+Philips-2200.jpg",
+      "product_url": "https://www.amazon.eg/Philips-Series-2200-Espresso-Machine/dp/B082Y45678",
+      "product_current_price": 28500.0,
+      "product_original_price": null,
+      "product_discount_percentage": null,
+      "product_specs": [
+        {
+          "specification_name": "Type",
+          "specification_value": "Fully Automatic"
+        },
+        {
+          "specification_name": "Milk System",
+          "specification_value": "LatteGo"
+        }
+      ],
+      "agent_recommendation_rank": 5,
+      "agent_recommendation_notes": [
+        "Excellent choice for those who prefer automated milk-based drinks.",
+        "LatteGo system is very easy to clean."
+      ]
+    },
+    {
+      "page_url": "https://www.amazon.eg/Miele-CM-5310-Silence-Machine/dp/B098765432",
+      "product_title": "Miele CM 5310 Silence Coffee Machine, Obsidian Black",
+      "product_image_url": "https://m.media-amazon.com/images/I/61+Miele-CM5310.jpg",
+      "product_url": "https://www.amazon.eg/Miele-CM-5310-Silence-Machine/dp/B098765432",
+      "product_current_price": 65000.0,
+      "product_original_price": null,
+      "product_discount_percentage": null,
+      "product_specs": [
+        {
+          "specification_name": "Type",
+          "specification_value": "Automatic"
+        },
+        {
+          "specification_name": "Feature",
+          "specification_value": "Quiet grinding"
+        },
+        {
+          "specification_name": "Convenience",
+          "specification_value": "OneTouch for Two"
+        }
+      ],
+      "agent_recommendation_rank": 4,
+      "agent_recommendation_notes": [
+        "Premium machine with superior build quality.",
+        "High price point makes it suitable for high-end requirements only."
+      ]
+    },
+    {
+      "page_url": "https://www.noon.com/egypt-en/barista-max-espresso-machine-silver/N87654321A/p/",
+      "product_title": "Breville Barista Max Espresso Machine",
+      "product_image_url": "https://k.nooncdn.com/t_desktop-pdp-v1/v1600000000/N87654321A.jpg",
+      "product_url": "https://www.noon.com/egypt-en/barista-max-espresso-machine-silver/N87654321A/p/",
+      "product_current_price": 32000.0,
+      "product_original_price": null,
+      "product_discount_percentage": null,
+      "product_specs": [
+        {
+          "specification_name": "Type",
+          "specification_value": "Manual Espresso"
+        },
+        {
+          "specification_name": "Grinder",
+          "specification_value": "Integrated"
+        },
+        {
+          "specification_name": "Milk System",
+          "specification_value": "Manual steam wand"
+        }
+      ],
+      "agent_recommendation_rank": 4,
+      "agent_recommendation_notes": [
+        "Great for users who want to learn barista skills.",
+        "Requires more manual effort compared to fully automatic machines."
+      ]
+    },
+    {
+      "page_url": "https://www.amazon.eg/Saeco-Lirika-Automatic-Coffee-Machine/dp/B012345678",
+      "product_title": "Saeco Lirika Automatic Coffee Machine",
+      "product_image_url": "https://m.media-amazon.com/images/I/61+Saeco-Lirika.jpg",
+      "product_url": "https://www.amazon.eg/Saeco-Lirika-Automatic-Coffee-Machine/dp/B012345678",
+      "product_current_price": 22000.0,
+      "product_original_price": null,
+      "product_discount_percentage": null,
+      "product_specs": [
+        {
+          "specification_name": "Type",
+          "specification_value": "Automatic"
+        },
+        {
+          "specification_name": "Usage",
+          "specification_value": "Professional/Office"
+        }
+      ],
+      "agent_recommendation_rank": 4,
+      "agent_recommendation_notes": [
+        "Robust machine suitable for office environments.",
+        "Large water tank capacity."
+      ]
+    },
+    {
+      "page_url": "https://www.noon.com/egypt-en/vertuo-next-coffee-machine-grey/N40636566A/p/",
+      "product_title": "Nespresso Vertuo Next Coffee Machine - Grey",
+      "product_image_url": "https://k.nooncdn.com/t_desktop-pdp-v1/v1600000000/N40636566A.jpg",
+      "product_url": "https://www.noon.com/egypt-en/vertuo-next-coffee-machine-grey/N40636566A/p/",
+      "product_current_price": 8499.0,
+      "product_original_price": null,
+      "product_discount_percentage": null,
+      "product_specs": [
+        {
+          "specification_name": "Technology",
+          "specification_value": "Centrifusion"
+        },
+        {
+          "specification_name": "Cup Sizes",
+          "specification_value": "5 sizes"
+        }
+      ],
+      "agent_recommendation_rank": 3,
+      "agent_recommendation_notes": [
+        "Good for capsule-based convenience.",
+        "Limited to Nespresso pods."
+      ]
+    },
+    {
+      "page_url": "https://www.jumia.com.eg/kenwood-drip-coffee-maker-1.5-liter-900w-cm200.html",
+      "product_title": "Kenwood Drip Coffee Maker, 1.5 Liter, 900W",
+      "product_image_url": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/kenwood-drip.jpg",
+      "product_url": "https://www.jumia.com.eg/kenwood-drip-coffee-maker-1.5-liter-900w-cm200.html",
+      "product_current_price": 2100.0,
+      "product_original_price": null,
+      "product_discount_percentage": null,
+      "product_specs": [
+        {
+          "specification_name": "Type",
+          "specification_value": "Drip"
+        },
+        {
+          "specification_name": "Capacity",
+          "specification_value": "1.5 Liter"
+        },
+        {
+          "specification_name": "Power",
+          "specification_value": "900W"
+        }
+      ],
+      "agent_recommendation_rank": 3,
+      "agent_recommendation_notes": [
+        "Reliable budget option for drip coffee.",
+        "Simple to use."
+      ]
+    },
+    {
+      "page_url": "https://www.jumia.com.eg/tornado-coffee-maker-12-cups-1000-watt-black-tcm-1000-156789.html",
+      "product_title": "Tornado Coffee Maker 12 Cups, 1000 Watt, Black - TCM-1000",
+      "product_image_url": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/tornado-tcm.jpg",
+      "product_url": "https://www.jumia.com.eg/tornado-coffee-maker-12-cups-1000-watt-black-tcm-1000-156789.html",
+      "product_current_price": 1850.0,
+      "product_original_price": null,
+      "product_discount_percentage": null,
+      "product_specs": [
+        {
+          "specification_name": "Type",
+          "specification_value": "Drip"
+        },
+        {
+          "specification_name": "Capacity",
+          "specification_value": "12 Cups"
+        },
+        {
+          "specification_name": "Power",
+          "specification_value": "1000W"
+        }
+      ],
+      "agent_recommendation_rank": 3,
+      "agent_recommendation_notes": [
+        "Good value for large capacity needs.",
+        "Includes anti-drip system."
+      ]
+    },
+    {
+      "page_url": "https://www.noon.com/egypt-en/12-cup-coffee-maker-900w-black/N12345678A/p/",
+      "product_title": "Black & Decker 12-Cup Coffee Maker, 900W, Black",
+      "product_image_url": "https://k.nooncdn.com/t_desktop-pdp-v1/v1600000000/N12345678A.jpg",
+      "product_url": "https://www.noon.com/egypt-en/12-cup-coffee-maker-900w-black/N12345678A/p/",
+      "product_current_price": 1650.0,
+      "product_original_price": null,
+      "product_discount_percentage": null,
+      "product_specs": [
+        {
+          "specification_name": "Type",
+          "specification_value": "Drip"
+        },
+        {
+          "specification_name": "Capacity",
+          "specification_value": "12 Cups"
+        }
+      ],
+      "agent_recommendation_rank": 2,
+      "agent_recommendation_notes": [
+        "Basic, functional coffee maker.",
+        "Good for simple daily use."
+      ]
+    },
+    {
+      "page_url": "https://www.jumia.com.eg/fresh-coffee-maker-1000-watt-1.2-liter.html",
+      "product_title": "Fresh Coffee Maker, 1000 Watt, 1.2 Liter",
+      "product_image_url": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/fresh-coffee.jpg",
+      "product_url": "https://www.jumia.com.eg/fresh-coffee-maker-1000-watt-1.2-liter.html",
+      "product_current_price": 1450.0,
+      "product_original_price": null,
+      "product_discount_percentage": null,
+      "product_specs": [
+        {
+          "specification_name": "Type",
+          "specification_value": "Drip"
+        },
+        {
+          "specification_name": "Capacity",
+          "specification_value": "1.2 Liter"
+        }
+      ],
+      "agent_recommendation_rank": 2,
+      "agent_recommendation_notes": [
+        "Most affordable option.",
+        "Suitable for light usage."
+      ]
+    }
+  ]
+}
