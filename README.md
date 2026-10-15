@@ -1,4 +1,4 @@
-# AI Procurement Agent
+# [AI Procurement Agent](https://github.com/AhmedSho3ib/AI-Procurement-Agent.git)
 
 A production-grade multi-agent AI system that researches what a company should buy,
 from search query to a decision-ready procurement report.
