@@ -7,7 +7,7 @@ from search query to a decision-ready procurement report.
 **deterministic code** enforces every business guarantee · **348 offline tests** prove
 it works without a single API key.
 
-[![CI](https://github.com/example/ai-procurement-agent/actions/workflows/ci.yml/badge.svg)](./.github/workflows/ci.yml)
+[![CI](https://github.com/AhmedSho3ib/AI-Procurement-Agent/actions/workflows/ci.yml/badge.svg)](./.github/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.11%20%7C%203.12%20%7C%203.13-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -190,8 +190,8 @@ See [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) for the full rationale.
 Requires Python 3.11–3.13.
 
 ```bash
-git clone https://github.com/example/ai-procurement-agent.git
-cd ai-procurement-agent
+git clone https://github.com/AhmedSho3ib/AI-Procurement-Agent.git
+cd AI-Procurement-Agent
 
 python -m venv .venv
 # Windows (PowerShell)
@@ -272,14 +272,18 @@ python scripts/check_providers.py --network    # live credential verification
 ### API
 
 ```bash
-python -m uvicorn src.main:create_app --factory --host 0.0.0.0 --port 8000
+python main.py                     # project-root entrypoint
+# or
+python -m src.main
 # or
 make run
 # or
-python -m src.main
+python -m uvicorn src.main:create_app --factory --host 0.0.0.0 --port 8000
 ```
 
-Interactive docs at <http://localhost:8000/docs>.
+The host, port and other app behaviour come from `APP_HOST`/`APP_PORT` in `.env`
+(default port `8000`), so the effective docs URL is
+<http://localhost:8000/docs> unless you change it.
 
 ### CLI
 
@@ -427,7 +431,8 @@ data shapes keep working.
 ## Project structure
 
 ```text
-ai-procurement-agent/
+AI-Procurement-Agent/
+├── main.py                         `python main.py` entrypoint (serves the API)
 ├── src/
 │   ├── main.py                     FastAPI factory, middleware, error handlers, lifespan
 │   ├── container.py                Composition root

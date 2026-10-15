@@ -50,8 +50,8 @@ dev = [
 procure = "src.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/example/ai-procurement-agent"
-Documentation = "https://github.com/example/ai-procurement-agent/tree/main/docs"
+Homepage = "https://github.com/AhmedSho3ib/AI-Procurement-Agent"
+Documentation = "https://github.com/AhmedSho3ib/AI-Procurement-Agent/tree/main/docs"
 
 [tool.setuptools.packages.find]
 where = ["."]
