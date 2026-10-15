@@ -3,10 +3,6 @@
 A production-grade multi-agent AI system that researches what a company should buy,
 from search query to a decision-ready procurement report.
 
-**CrewAI** orchestrates four specialist agents · **FastAPI** exposes a clean API ·
-**deterministic code** enforces every business guarantee · **348 offline tests** prove
-it works without a single API key.
-
 [![CI](https://github.com/AhmedSho3ib/AI-Procurement-Agent/actions/workflows/ci.yml/badge.svg)](./.github/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.11%20%7C%203.12%20%7C%203.13-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
