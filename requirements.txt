@@ -7,6 +7,6 @@ jinja2==3.1.6
 pydantic==2.12.5
 pydantic-settings==2.14.2
 python-dotenv==1.2.3
-scrapegraph-py==2.3.1
+scrapegraph-py==1.47.0
 tavily-python==0.8.2
 uvicorn[standard]==0.49.0
