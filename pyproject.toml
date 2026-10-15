@@ -33,7 +33,7 @@ dependencies = [
     "google-genai>=1.0,<3.0",
     # External system SDKs used by the stores layer
     "tavily-python>=0.5,<1.0",
-    "scrapegraph-py>=2.0,<3.0",
+    "scrapegraph-py>=1.47,<3.0",
     # Observability (optional at runtime, isolated in utils/observability.py)
     "agentops>=0.4,<1.0",
 ]
